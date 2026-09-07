@@ -1,8 +1,24 @@
+body{
+    font-family:sans-serif;
+    line-height:1.6;
+}
+header{
+    text-align:center;
+}
 h1{
     color:#4676a9;
+    text-align:center;
+    font-size:4.35rem;
+    line-height:0.9;
 }
 h2{
     color:#cb721c;
+}
+p{
+    margin-block:30px;
+}
+section{
+    margin-block:50px;
 }
 footer{
     background-color:#22466c;
