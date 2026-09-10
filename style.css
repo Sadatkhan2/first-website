@@ -1,26 +1,62 @@
-body{
-    font-family:sans-serif;
-    line-height:1.6;
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
 }
-header{
-    text-align:center;
+
+header {
+    text-align: center;
 }
-h1{
-    color:#4676a9;
-    text-align:center;
-    font-size:4.35rem;
-    line-height:0.9;
+
+h1 {
+    color: #0c0d0e;
+    text-align: center;
+    font-size: 4.35rem;
+    line-height: 0.9;
 }
-h2{
-    color:#cb721c;
+
+h2 {
+    color: #cb721c;
 }
-p{
-    margin-block:30px;
+
+p {
+    margin-block: 30px;
 }
-section{
-    margin-block:50px;
+
+section {
+    margin-block: 50px;
 }
-footer{
-    background-color:#22466c;
-    color:#ffffff;
+
+footer {
+    background-color: #22466c;
+    color: #ffffff;
+    text-align: center;
+}
+
+a{
+    color:red;
+}
+
+a:visited {
+    color: rgb(4, 137, 17);
+}
+a:hover  {
+    color: rgb(10, 2, 242);
+}
+
+.teal-bg {
+    background-color: #087a98;
+    color: rgb(255, 255, 255);
+    border:#0b4a5a solid 6px;
+    padding: 20px
+}
+.teal-text{
+    color:#087a98;
+}
+.climber-bg{
+    color: #ffffff;
+    padding: 20px;
+    background-image: url("images/bouldering-gym.jpg");
+    background-size: cover;
+    background-position: center;
+
 }
