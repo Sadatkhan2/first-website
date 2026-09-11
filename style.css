@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 header {
@@ -19,7 +19,7 @@ h2 {
 }
 
 p {
-    margin-block: 30px;
+    margin-block: 10px;
 }
 
 section {
@@ -30,6 +30,7 @@ footer {
     background-color: #22466c;
     color: #ffffff;
     text-align: center;
+    
 }
 
 a{
@@ -58,5 +59,15 @@ a:hover  {
     background-image: url("images/bouldering-gym.jpg");
     background-size: cover;
     background-position: center;
-
+}
+.wrapper {
+    width: 80%;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-inline: auto;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    min-height: auto;
 }
